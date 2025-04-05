@@ -1,8 +1,26 @@
-# Covid-19Analysis
+# COVID-19 Deaths Analysis by Age & Sex
 
-The COVID-19 pandemic has had a disproportionate impact on various demographic groups, highlighting the need to analyze mortality statistics by age and sex. This project leverages a detailed dataset from the Centers for Disease Control and Prevention (CDC) on provisional COVID-19 deaths, categorized by these factors. 
-Using exploratory data analysis, visualization techniques, and predictive modeling approaches such as k-nearest neighbors (KNN), time series analysis, and other machine learning algorithms, this study investigates trends, patterns, and correlations in COVID-19 mortality rates. 
-It explores connections between these rates and variables like pneumonia deaths, influenza deaths, and overall mortality across age and gender groups. Additionally, geographic differences and temporal variations are examined to provide actionable insights for public health interventions and policymaking. 
-By analyzing this complex dataset, the study seeks to uncover significant patterns and relationships that can guide equitable healthcare policies and effective mitigation strategies.
+## 📊 Objective
+To analyze COVID-19 death counts across different age groups and sex categories in the US, and identify trends, patterns, and predictive insights using machine learning and time series forecasting.
 
-This study is based on a dataset comprising approximately 100,000 records, providing a comprehensive and statistically reliable basis for analysis. A variety of analytical techniques—including Linear Regression, Neural Networks, K-Nearest Neighbors (KNN), Scatter Plots, Bar Charts, Heatmaps, Time Series Analysis, and Random Forest Classifiers—are employed to address critical research questions:
+## 🛠️ Tools Used
+- Python (Pandas, NumPy, Scikit-learn, Prophet, Matplotlib, Seaborn)
+- Jupyter Notebook
+
+## 🔍 Key Analyses
+1. **Sex-wise Comparison** using Linear Regression and Neural Networks.
+2. **Age and Pneumonia Deaths Impact** via KNN Classifier.
+3. **State-wise Deaths** Visualization.
+4. **Time Series Forecasting** using Prophet (Year-wise and Month-wise).
+5. **Influenza Deaths by Sex** using Random Forest Classification.
+
+## 📈 Notable Insights
+- Males had a higher number of COVID-19 related deaths.
+- Strong correlation between Pneumonia and COVID-19 deaths.
+- States show varied death counts; detailed in bar plot.
+- Prophet predicts seasonal patterns in COVID-19 deaths.
+
+## 📁 Dataset Source
+CDC (Centers for Disease Control and Prevention)
+
+--
